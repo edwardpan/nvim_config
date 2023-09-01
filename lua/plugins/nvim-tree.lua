@@ -232,9 +232,9 @@ function M.config()
                     modified = '●',
                     folder = {
                         arrow_closed = '>',
-                        arrow_open = 'V',
+                        arrow_open = '˅',
                         default = '-',
-                        open = '=',
+                        open = '⃘',
                         empty = '',
                         empty_open = '',
                         symlink = '',
