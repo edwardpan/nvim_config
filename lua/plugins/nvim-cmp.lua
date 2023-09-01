@@ -12,6 +12,11 @@ local M = {
         'saadparwaiz1/cmp_luasnip',
         'octaltree/cmp-look',
         'tzachar/cmp-tabnine',
+		{
+			'Saecki/crates.nvim',
+			event = { 'BufRead Cargo.toml' },
+			config = true,
+		}
     },
 }
 
@@ -210,6 +215,7 @@ function M.config()
                     --dict = '/usr/share/dict/words'
                 },
             },
+			{ name = "crates" },
         },
     })
 
